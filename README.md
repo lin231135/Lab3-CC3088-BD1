@@ -12,13 +12,17 @@ Este proyecto corresponde al Laboratorio 3 de Bases de Datos 1 (CC3088) y permit
 ```
 /raíz-del-proyecto
 │
-├── backend/
+├── backend-ORM-parking/
 │   ├── app/
-│   ├── db/
-│   ├── models/
-│   ├── crud/
-│   ├── main.py
-│   ├── Dockerfile
+│   |   ├── models/
+│   |   ├── crud/
+│   |   ├── main.py
+│   ├── docker/
+│   |   ├── Dockerfile
+│   ├── scripts/
+│   |   ├── data.sql
+│   |   ├── schema.sql
+│   |   ├── view.sql
 │   └── docker-compose.yml
 │
 ├── frontend/
@@ -28,6 +32,8 @@ Este proyecto corresponde al Laboratorio 3 de Bases de Datos 1 (CC3088) y permit
 │   ├── Dockerfile
 │   └── docker-compose.yml
 ```
+
+**Nota:** Los scripts `schema.sql` y `data.sql` generados automáticamente por el ORM se encuentran en la carpeta `scripts/`.
 
 ## Requisitos
 

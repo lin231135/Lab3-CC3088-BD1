@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: frontend_fastapi
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app:cached
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    networks:
+      - frontend_network
+
+networks:
+  frontend_network:
+    driver: bridge

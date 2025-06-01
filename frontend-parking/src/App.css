@@ -1,0 +1,103 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.table {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #bcd0f7;
+  vertical-align: middle;
+}
+
+.table td {
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #dee2e6;
+  vertical-align: middle;
+}
+
+.table thead th {
+  border-top: none;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #e9f3ff;
+}
+
+.modal-content {
+  border-radius: 1rem;
+  border: 1px solid #007bff;
+  background-color: #ffffff;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+  border-bottom: none;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.btn-close-white {
+  filter: invert(1);
+}
+
+.btn-group-sm .btn {
+  color: #fff !important;
+  margin-right: 4px;
+  border: none !important;
+}
+
+.btn-outline-info {
+  background-color: #17a2b8 !important;
+}
+
+.btn-outline-warning {
+  background-color: #ffc107 !important;
+}
+
+.btn-outline-danger {
+  background-color: #dc3545 !important;
+}
+
+.btn-outline-info:hover,
+.btn-outline-warning:hover,
+.btn-outline-danger:hover {
+  filter: brightness(0.95);
+}
+
+/* Colores para estado con bordes suaves y texto claro */
+.estado-activo {
+  background-color: #d4edda;
+  color: #155724;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+}
+
+.estado-finalizado {
+  background-color: #e2e3e5;
+  color: #383d41;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+}
+
+.estado-cancelado {
+  background-color: #f8d7da;
+  color: #721c24;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+}
